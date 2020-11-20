@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.titulos{
+    font-size: 3em;
+}
+
+.parrafos{
+    font-size: 1.3em;
+}
+
+.encabezado{
+    font-family: 'Roboto Slab', serif;
+}
+
+.subtitulo{
+    font-family: 'Roboto Slab', serif;
+}
+
+.texto-navbar{
+    font-size: 1em;
+}
+
+/**
+        NARANJA SHAMAN KING: #FD7904
+        NARANJA OSCURO: #b45604
+        AMARILLO CLARO: #ffc107
+        AMARILLO OSCURO: #eeb200
+        
+**/
+
+.logo{
+    padding-left: 117px;
+    
+}
+
+.bg-naranja{
+    background-color: #FD7904;
+    color: white;
+}
+
+.btn-naranja{
+    background-color: #FD7904;
+    border-color: #FD7904;
+    color: white;
+}
+
+.btn-naranja:hover{
+    background-color: #b45604;
+    border-color: #b45604;
+    color: white;
+}
+
+.btn-amarillo{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: white;
+}
+
+.btn-amarillo:hover{
+    background-color: #eeb200;
+    border-color: #eeb200;
+    color: white;
+}
+
+body {
+    background-image: url(../imagenes/fondo/bg-body.jpg)
+}
+

@@ -1,0 +1,109 @@
+/** COLORES 
+
+    ORO LAKERS: #fdb927
+    ORO OSCURO: #d69d22;
+    MORADO LAKERS: #552583
+    MORADO OSCURO: #47206c;
+    NEGRO LAKERS: #000000;
+
+**/
+
+.bg-morado{
+    background-color: #552583;
+    color: #fdb927;
+}
+
+.bg-oro{
+    background-color: #d69d22;
+    color: black;
+}
+
+.bg-neutro{
+    background-color: #e9ecef;
+}
+
+
+.nav-link {
+color: #fdb927 !important;
+}
+
+.titulos-color{
+    color: #fdb927;
+}
+
+.btn-oro{
+    background-color: #fdb927;
+    border-color: #fdb927;
+    color: white;
+}
+
+.btn-oro:hover{
+    background-color: #d69d22;
+    border-color: #d69d22;
+    color: black;
+}
+
+.btn-morado{
+    background-color: #552583;
+    border-color: #552583;
+    color: white;
+}
+
+.btn-morado:hover{
+    background-color: #47206c;
+    border-color: #47206c;
+    color:white;
+}
+
+.texto-slides{
+    color: black;
+}
+
+.carousel .carousel-indicators li {
+    background-color: #552583;
+}
+
+/** BORDES **/
+
+.linea-seguida{
+    border-bottom: 1px dashed #552583;
+}
+
+.carrito{
+    margin-left: 20px;
+}
+
+.atuendo{
+    margin-left: 40px;
+}
+
+.corazon{
+    margin-left: 5px;
+}
+
+.logo-st{
+    margin-top: 30px;
+}
+
+/** FUENTES **/
+
+.titulos{
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+.titulos-tam{
+    font-size: 2.5em;
+}
+
+.favoritos-img{
+    margin-bottom: 30px;
+}
+
+.parrafos{
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+
+body {
+    background-image: url(../imagenes/fondos/pexels-lorenzo-242236.jpg);
+}
