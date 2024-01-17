@@ -1,5 +1,5 @@
-import { IonIcon } from '@ionic/react';
-import { menuOutline } from 'ionicons/icons';
+// import { IonIcon } from '@ionic/react';
+// import { menuOutline } from 'ionicons/icons';
 import CV from '../shared/CV_Francisco_Montes.pdf';
 
 const Menu = () => {

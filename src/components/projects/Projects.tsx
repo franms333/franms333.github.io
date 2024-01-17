@@ -4,7 +4,7 @@ import hbo_img from '../../shared/hbo_card_img.jpeg';
 import weatherjs_img from '../../shared/weatherjs_img.png';
 import github_finder_img from '../../shared/github_finder_img.png';
 import ContactForm from '../UI/ContactForm';
-import { useFormik } from 'formik';
+// import { useFormik } from 'formik';
 
 const Projects = () => {
     let projects: {

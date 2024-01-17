@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 
 const ContactForm = () => {
-    const [emailSent, setEmailSent] = useState();
+    const [emailSent, setEmailSent] = useState<boolean | null>(null);
 
     async function onSubmit(values:{name:string, email:string, message:string}, actions:any){
         var templateParams = {
