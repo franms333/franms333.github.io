@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer utilities {
+  .animation-delay-1000 {
+    animation-delay: 1s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+} */
+
+@media (min-width: 768px) {  
+  :where(.md\:timeline-vertical > li) {
+      --timeline-row-start: minmax(100px, 1fr) !important;
+      --timeline-row-end: minmax(0, 1fr);
+      justify-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:timeline-horizontal > li > hr {
+      width: 150px !important;
+  }
+}
+
+.card.image-full:before {
+  position: relative;
+  content: "";
+  z-index: 10;
+  border-radius: var(--rounded-box, 1rem/* 16px */);
+  --tw-bg-opacity: 1;
+  background-color: transparent;
+  opacity: 0.75;
+}
+
+.card.image-full:hover::before {
+  position: relative;
+  content: "";
+  z-index: 10;
+  border-radius: var(--rounded-box, 1rem/* 16px */);
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-n,oklch(var(--n)/var(--tw-bg-opacity)));
+  opacity: 0.75;
+}
+
+.custom-border-width {
+  width: calc(100% + 2px);
+}
+
+.custom-border-height {
+  height: calc(100% + 2px);
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --hero-height: calc(100vh - 103px);
+  --ball-width: 288px;
+  --rightPosition: calc(50vw - 144px);
+  /* --ball-width: calc(288px + 80px);
+  --rightPosition: calc(50vw - calc(--ball-width / 2)); */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
